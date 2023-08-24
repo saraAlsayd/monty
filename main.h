@@ -57,7 +57,7 @@ char  *clean_line(char *content);
 void f_push(stack_t **head, unsigned int number);
 void f_pall(stack_t **head, unsigned int number);
 void f_pint(stack_t **head, unsigned int number);
-int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
+int execute(char *content, stack_t **head, unsigned int count, FILE *file);
 void free_stack(stack_t *head);
 void f_pop(stack_t **head, unsigned int count);
 void f_swap(stack_t **head, unsigned int count);
@@ -77,3 +77,4 @@ void f_queue(stack_t **head, unsigned int count);
 void f_stack(stack_t **head, unsigned int count);
 
 #endif /*_MAIN_H_*/
+
